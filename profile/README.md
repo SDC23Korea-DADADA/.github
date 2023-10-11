@@ -77,14 +77,14 @@ https://github.com/SDC23Korea-DADADA/OneCloset-Introduction/assets/68934392/66c3
 
 #### 의류 판단
 
-<img src="https://github.com/SDC23Korea-DADADA/.github/blob/main/assets/detection1.png" width="40%"/> <img src="https://github.com/SDC23Korea-DADADA/.github/blob/main/assets/detection2.png" width="40%"/>
+<img src="https://github.com/SDC23Korea-DADADA/OneCloset-Introduction/assets/71217221/adf42a0f-79d5-47cc-8185-c977b812d8e7" width="40%"/> <img src="https://github.com/SDC23Korea-DADADA/OneCloset-Introduction/assets/71217221/268ea150-a597-4458-8ebb-ef3fbfaf10bf" width="40%"/>
 
 - `yolov5`을 사용하여 학습시켰습니다.
 - label은 `clothings` 만 존재하여 의류가 감지되는지에 대한 여부만 판단해줍니다.
 
 #### 의류 재질 탐지
 
-<img src="https://github.com/SDC23Korea-DADADA/.github/blob/main/assets/material1.png" width="30%"/> <img src="https://github.com/SDC23Korea-DADADA/.github/blob/main/assets/material2.png" width="30%"/>
+<img src="https://github.com/SDC23Korea-DADADA/OneCloset-Introduction/assets/71217221/2b991e13-1d71-4d2a-a32c-5fe0ce189da7" width="30%"/> <img src="https://github.com/SDC23Korea-DADADA/OneCloset-Introduction/assets/71217221/ee5ef2f7-2b46-4bdb-b24f-4b1eb9d738cb" width="30%"/>
 
 | 분류 | 내용 |
 | :-----------: | :---------------------: |
