@@ -112,6 +112,32 @@ https://minsung37.notion.site/OneCloset-API-b1079cc23d1243998b7d7369da41a52f?pvs
   - 가죽
   - 코듀로이
 
+#### 의류 종류 분류
+
+<img src="https://github.com/SDC23Korea-DADADA/OneCloset-Introduction/assets/37768793/d482ea7e-514c-4064-9327-d6d4a198aa0c" width="30%"/> <img src="https://github.com/SDC23Korea-DADADA/OneCloset-Introduction/assets/37768793/1259556e-53fc-44fb-9f4d-7ceedf2c8e6c" width="30%"/>
+
+| 분류 | 내용 |
+| --- | --- |
+| 모델 | pytorch EfficientNet_v2_s |
+| 정확도 | 92.45% |
+| loss | 0.2802 |
+| optimizer | SGD |
+| learning rate | 0.001 |
+
+- 분류 라벨 (18종)
+    - 외투 - 코트, 재킷, 점퍼/짚업, 패딩, 가디건, 베스트
+    - 상의 - 긴팔티, 반팔티, 셔츠/블라우스, 니트웨어, 후드티, 민소매
+    - 하의 - 긴바지, 반바지, 롱스커트, 미니스커트
+    - 한벌옷 - 원피스, 점프수트
+
+#### 의류 색상 분류
+
+- `k-means clustering` 알고리즘을 이용하여 픽셀을 군집화한 후, 가장 유사한 색상으로 매핑하였습니다.
+- 유사 색상을 정확하게 판단하기 위해 `CIELAB 색 공간`을 사용하였습니다.
+- 분류 라벨 (19종)
+    
+    블랙, 그레이, 그린, 네이비, 라벤더, 레드, 민트, 베이지, 브라운, 블루, 스카이블루, 옐로우, 오렌지, 와인, 카키, 퍼플, 핑크, 화이트, 다채색
+
 ## 📃 협업
 
 <img width="512" alt="image" src="https://github.com/SDC23Korea-DADADA/OneCloset-Introduction/assets/68934392/17756f31-ba80-4447-9ec5-83e9d3c3bd25">
@@ -129,6 +155,6 @@ https://minsung37.notion.site/OneCloset-API-b1079cc23d1243998b7d7369da41a52f?pvs
 | 김동현                                                                                                                                   | 김주용                                                                                                                                              | 김소연                                                                                                                                            | 정수정                                                                                                                                        | 지민성                                                                                                                                       | 송찬환                                                                                                                                      |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | <a href="https://github.com/hhkers"><img src="https://avatars.githubusercontent.com/u/74969432?v=4" alt="" width="100" height="100"></a> | <a href="https://github.com/Kim-JuYong"><img src="https://avatars.githubusercontent.com/u/68934392?v=4" alt="jyo_ong" width="100" height="100"></a> | <a href="https://github.com/soyeonnnb"><img src="https://avatars.githubusercontent.com/u/71217221?v=4" alt="ppeper" width="100" height="100"></a> | <a href="https://github.com/sujeong1201"><img src="https://avatars.githubusercontent.com/u/37768793?v=4" alt="" width="100" height="100"></a> | <a href="https://github.com/minsung37"><img src="https://avatars.githubusercontent.com/u/102503928?v=4" alt="" width="100" height="100"></a> | <a href="https://github.com/cksghks89"><img src="https://avatars.githubusercontent.com/u/23161060?v=4" alt="" width="100" height="100"></a> |
-| 멘토                                                                                                                                     | 안드로이드                                                                                                                                          | 분류 & 의류 판단 인식                                                                                                                             | 색상&재질 인식                                                                                                                                | API                                                                                                                                          | 인프라&가상피팅                                                                                                                             |
+| 멘토                                                                                                                                     | 안드로이드                                                                                                                                          | 의류 판단 & 재질 분류                                                                                                                             | 종류 분류 & 색상 분류                                                                                                                                | API                                                                                                                                          | 인프라 & 가상피팅                                                                                                                             |
 
 <br>
