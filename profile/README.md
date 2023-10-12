@@ -135,8 +135,10 @@ https://minsung37.notion.site/OneCloset-API-b1079cc23d1243998b7d7369da41a52f?pvs
 - `k-means clustering` 알고리즘을 이용하여 픽셀을 군집화한 후, 가장 유사한 색상으로 매핑하였습니다.
 - 유사 색상을 정확하게 판단하기 위해 `CIELAB 색 공간`을 사용하였습니다.
 - 분류 라벨 (19종)
+    
     블랙, 그레이, 그린, 네이비, 라벤더, 레드, 민트, 베이지, 브라운, 블루, 스카이블루, 옐로우, 오렌지, 와인, 카키, 퍼플, 핑크, 화이트, 다채색
 
+  
 ## 📃 협업
 
 <img width="512" alt="image" src="https://github.com/SDC23Korea-DADADA/OneCloset-Introduction/assets/68934392/17756f31-ba80-4447-9ec5-83e9d3c3bd25">
