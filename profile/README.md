@@ -65,7 +65,7 @@ https://github.com/SDC23Korea-DADADA/OneCloset-Introduction/assets/68934392/66c3
 ### Backend
 
 #### ERD
-<img src="https://github.com/minsung37/OneCloset-Admin/assets/102503928/74fd41b8-3ea6-4546-be99-2806473712bf"/>
+<img src="https://fitsta-bucket.s3.ap-northeast-2.amazonaws.com/DADADA_ERD.png"/>
 
 #### API 명세서
 https://minsung37.notion.site/OneCloset-API-b1079cc23d1243998b7d7369da41a52f?pvs=4
